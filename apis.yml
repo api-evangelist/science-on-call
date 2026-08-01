@@ -1,8 +1,29 @@
 aid: science-on-call
 name: Science On Call
-description: Science On Call is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Science On Call provides 24/7 AI-powered technology support built specifically
+  for restaurants. Combining intelligent automation with human experts, the service
+  helps restaurant staff triage and resolve operational technology issues across
+  point-of-sale (POS) systems, kitchen display systems (KDS), loyalty programs,
+  staff scheduling, online ordering, training platforms, phones, internet, and
+  Wi-Fi. Staff reach support anytime via text, email, or phone with no app or login
+  required, and issues are typically resolved in about 25 minutes. Science On Call
+  is a Techstars-backed company; billing is handled through a hosted customer
+  portal. This profile currently exposes no public developer API, SDK, or machine-
+  readable specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/science-on-call/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/68ee984f6af3e5721f0f250e/t/6908e56207d1a430e968f41d/1762190690768/SOC_PrimaryLogo_Blue.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Restaurants
+- Technology Support
+- Point of Sale
+- Artificial Intelligence
+- Hospitality
+- Managed Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/science-on-call-domain-security.yml
 - type: Website
   url: https://scienceoncall.com/
+- type: PrivacyPolicy
+  url: https://scienceoncall.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
